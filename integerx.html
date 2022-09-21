@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,6 +19,40 @@
             }
             
         }
+        else {
+            document.write(`${value} is a negative integer`)
+        }
+    </script>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check_number</title>
+</head>
+<body>
+    <script>
+        const value = prompt(`enter any number below`);
+
+        if(isNaN(value)) {
+            document.write(`${value} is not a number`)
+        }
+
+        else if(value==0){
+            document.write(`${value} is equal to zero`)
+        }
+
+        else if(value>0){
+            document.write(`${value} is a positive integer`)
+        }
+
         else {
             document.write(`${value} is a negative integer`)
         }

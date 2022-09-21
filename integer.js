@@ -13,10 +13,10 @@
 // }
 
 
-let val=0;
+let val=cfgh;
 
-if(val>0){
-    console.log(`it is positive integer`)
+if(isNaN(val)){
+    console.log(`it is not a number`)
 
 }
 else if(val==0){
@@ -25,5 +25,7 @@ else if(val==0){
 }
 else if(val<0){
     console.log(`it is negative integer`)
-
+}
+else{
+    console.log(`it is a positive integer`)
 }
